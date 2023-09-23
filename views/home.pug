@@ -1,0 +1,46 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css 
+block content 
+   
+    section#introSection 
+        div Welcome to New Dance Academy 
+        div.small  Enjoy the dance  
+    section#mission 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo5.png")
+                    div.card-content 
+                        p This is the best time to perfect you skills.
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo6.png")
+                    div.card-content 
+                        p Best teacher for Dance. our teacher are expert.
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo4.png")
+                    div.card-content 
+                        p If you want to learn the dance step and like the dance Please join the academy.
+           
+    section#sponsorsSection  
+        h2 Our Sponsors
+        div#sponsor
+            img(src="/static/img/spon1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon4.png", alt="Sponsor Image", class="spImage")
+
+    
+    script
+      include ../static/index.js

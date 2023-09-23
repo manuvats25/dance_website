@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(66, 23, 100);
+    /* display: block; */
+    padding: 18px 4px;
+
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li {
+    margin: 5px;
+    list-style: none;
+    
+}
+#navbar li a{
+   
+    padding: 7px 34px;
+    text-decoration: none;
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: azure;
+    font-size: 1.5rem;
+
+}
+#navbar li a:hover{
+ font-weight: bold;
+    /* background-color: rgb(108, 48, 204); */
+}
+#introSection{
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    font-size: 40px;
+    height: 300px;
+    /* background-color: azure; */
+    background: center/cover url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.small{
+    font-size: 30px;
+}
+#mission{
+    height: 350px;
+}
+#mission h2{
+    text-align: center;
+    padding: 17px;
+    font-size: 2rem;
+    
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 20px;
+    height: 218px;
+    background-color: rgb(207, 130, 201);
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: bisque;
+    }
+#sponsorsSection h2{
+    text-align: center;
+    padding: 10px;
+    
+}
+#footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    height: 60px;
+
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 14px;
+    font-size: 30px;
+    width: 30%;
+}
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+    width: 80px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 100px;
+    padding: 0 15px;
+
+}
+.card-img img{
+    height: inherit ;
+}
+.card-content{
+    padding: 0 27px;
+}
+#sponsor{
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spImage{
+    height: 80%;
+    margin: atuo;
+    
+}

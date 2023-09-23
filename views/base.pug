@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title MaHa Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/img/logo3.png")
+                | Bha-Nat
+            li #[a(href="/") Home base] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/contact") Contact Us]
+    block content
+      | this is contact
+    footer#footer 
+        | Copyright @ 2023 MaHaDanceAcademy.com | All right reserved
+

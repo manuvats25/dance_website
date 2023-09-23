@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/img/logo3.png")
+                | Bha-Nat
+            li #[a(href="/") Hohjme] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact Us]
+    section#introSection 
+        div Welcome to New Dance Academy 
+        div.small  Enjoy the dance  
+    section#mission 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo5.png")
+                    div.card-content 
+                        p This is the best time to perfect you skills.
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo6.png")
+                    div.card-content 
+                        p Best teacher for Dance. our teacher are expert.
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                    div.card-img
+                        img(src="/static/img/logo4.png")
+                    div.card-content 
+                        p If you want to learn the dance step and like the dance Please join the academy.
+           
+    section#sponsorsSection  
+        h2 Our Sponsors
+        div#sponsor
+            img(src="/static/img/spon1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon3.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img/spon4.png", alt="Sponsor Image", class="spImage")
+
+    footer#footer 
+        | Copyright @ 2023 MaHaDanceAcademy.com | All right reserved
+
+    
+    script
+      include ../static/index.js
